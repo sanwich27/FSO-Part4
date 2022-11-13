@@ -1,0 +1,9 @@
+PUT http://localhost:3003/api/blogs/6363616e3939b55a574235b6
+Content-Type: application/json
+
+{
+  "title": "You can't see me",
+  "author": "John Cena",
+  "url": "ww.you-cant-see-me.com",
+  "likes": 123
+}

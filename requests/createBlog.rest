@@ -1,0 +1,10 @@
+POST http://localhost:3003/api/blogs
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Inh5bCIsImlkIjoiNjM2Y2Y0ZDJhMWQwZGJjOWE1ZDY5ZDBmIiwiaWF0IjoxNjY4MTMzODk0LCJleHAiOjE2NjgxMzc0OTR9.D1xVIxqZMVv5YbLnmmSiEeO_pBf2Ahf9ZU5cUGZ6lHY
+content-type: application/json
+
+{
+  "title": "Today is 111/11/11",
+  "author": "xyl",
+  "url": "just a test",
+  "likes": 1
+}
